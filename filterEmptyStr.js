@@ -1,6 +1,6 @@
-function filterEmptyStr(Data) {
+function filterEmptyStr(obj) {
     let filterdObj = {}
-    const keyValueArray = Object.entries(Data)
+    const keyValueArray = Object.entries(obj)
     for (let i = 0; i < keyValueArray.length; i++) {
         let key = keyValueArray[i][0]
         let value = keyValueArray[i][1]
